@@ -1,0 +1,22 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "My auth server on node.js",
+  "main": "auth.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "authentication",
+    "server"
+  ],
+  "author": "Ivan Gromov",
+  "license": "ISC"
+}
